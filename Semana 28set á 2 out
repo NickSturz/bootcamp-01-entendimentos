@@ -1,0 +1,48 @@
+Leitura sobre como ser um aluno eficiente, vídeos do alberto/ Felipe dechamps
+Mapa mental de conhecimento que devo adquirir, tracei objetivos, metas no calendário, dividi conteúdo por dias... (imagem1)
+---------------------------------------------------------------------------------------------------
+Tipos de erros do Java - sintaxe, semantica, tempo de execução. 
+Sobre inicialização do Javac e Java ser Case sensitive.
+
+Formato das Classes(imagem 2)
+Orientação a objeto (Facilita o reuso do codigo, reflete o real, facilita manutenção)
+Conceitos:
+  Classes: nome da classe, conjunto de atributos(descrição) e conjunto de metodos(comportamento)
+  Obejtos: objeto real com características definidas
+  Metodos: verbos, ações, comportamento
+  Herança: Permite utilização da estrutura do comportamento de uma classe
+  Polimorfismo:comportamento comum, porém de valor diferente
+  Pacotes: organização de classes
+  POR CONVENÇÃO - dominio + projeto +pasta: com.nome.curso.aulaX
+  
+Variáveis: memória associada a um nome que armazena valores
+Tipos primitivos:
+  Números:
+    Inteiros:
+      Char, byte- 8bits, short - 16bits, int - 32bits, long - 64bits
+    Pontos flutuante(é com casa decimal definida com .):
+      float(precisa anotar F no final), double
+      
+Sobre Scanner para pegar números e palavras escritas.
+
+Operadores Aritiméticos, relacionais, lógicos, de assignment, precedencia e bitwise(não é muito utilizado)
+uso do if/else, switch-case, default, controle do while e do-while, i++ implentação de valores e for.
+FindByNomeDoAtributoDoRelacionamento concatenado com o atributo.
+Uso do converter -> cria método
+Visita nas coleções do Java
+Sobre entidades.
+
+----------------------------------------------------------------------------------------------------------
+uso dos metodos do request mapping - POST - GET - PUT - DELETE
+importações do Spring
+esquema de classes/ proteção de bordas
+Referencias do Repositorio e montagem
+@Repository
+-------------------------------------------------------------------------------------------------------
+Erro porta já sendo utilizada?
+abre cmd -> netstat -a -n -o
+ver nº do pif que está a frente da porta 8080 depois da coluna "estado"
+taskkill -f -im "numeroDoPid"
+porta fechada! EHHEHE obrigada StackOverFlow
+----------------------------------------------------------------------------------------------------------
+      

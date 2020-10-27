@@ -1,0 +1,95 @@
+Dear diary, or monthly, hehe Sorry, not sorry, but I'm here...
+
+Leitura sobre como ser um aluno eficiente, vídeos do alberto/ Felipe dechamps
+Mapa mental de conhecimento que devo adquirir, tracei objetivos, metas no calendário, dividi conteúdo por dias... (imagem1)
+Ler pelo menos 3 vezes, o mesmo sobre assistir aulas, não desistir, métodos para evitar a preguiça ("preguiça" - PalavraCantada)
+Entender como cabeça funciona para os estudos já que estive parada para eles por pelo menos 4 anos. Tentativa de tecnica pomodoro.
+Leitura sobre design de código e pontuação, ainda um pouco vago, tenho dificuldade de compreender.
+***Aprender a bater o ponto direito*** 
+---------------------------------------------------------------------------------------------------
+Tipos de erros do Java - sintaxe, semantica, tempo de execução. 
+Sobre inicialização do Javac e Java ser Case sensitive.
+
+Formato das Classes(imagem 2)
+Orientação a objeto (Facilita o reuso do codigo, reflete o real, facilita manutenção)
+Conceitos:
+  Classes: nome da classe, conjunto de atributos(descrição) e conjunto de metodos(comportamento)
+  Obejtos: objeto real com características definidas
+  Metodos: verbos, ações, comportamento
+  Herança: Permite utilização da estrutura do comportamento de uma classe
+  Polimorfismo:comportamento comum, porém de valor diferente
+  Pacotes: organização de classes
+  POR CONVENÇÃO - dominio + projeto +pasta: com.nome.curso.aulaX
+  
+Variáveis: memória associada a um nome que armazena valores
+Tipos primitivos:
+  Números:
+    Inteiros:
+      Char, byte- 8bits, short - 16bits, int - 32bits, long - 64bits
+    Pontos flutuante(é com casa decimal definida com .):
+      float(precisa anotar F no final), double
+      
+Sobre Scanner para pegar números e palavras escritas.
+
+Operadores Aritiméticos, relacionais, lógicos, de assignment, precedencia e bitwise(não é muito utilizado)
+uso do if/else, switch-case, default, controle do while e do-while, i++ implentação de valores e for.
+FindByNomeDoAtributoDoRelacionamento concatenado com o atributo.
+Uso do converter -> cria método
+Visita nas coleções do Java
+Sobre entidades.
+
+----------------------------------------------------------------------------------------------------------
+O que é um DTO - Obejto de transferencia de dados, uma classe utilizada para proteger meu domínio e não ter ligação direta "PROTEJA AS BORDAS"
+uso dos metodos do request mapping - POST - GET - PUT - DELETE
+importações do Spring e como facilita o start do projeto
+esquema de classes/ proteção de bordas
+Referencias do Repositorio e montagem e os @@@@@
+@Repository
+@ConstraintValue
+@Lenght
+@Min
+@Max
+@Autowired
+@Transactional
+@NotBlank / @NotNull
+@Size
+@Id @GeneretedValue e TYPES
+@Positive 
+@Column
+@Email
+@ManoToOne (apanhei pacarai nesse, só gzus e erro que não consegue definir as column)
+@OneToMany @ManyToMany @OneToOne (toda família)
+@Deprecated (e como não roda se essa lindeza vazia de construtor não estiver lá)
+@InitBinder e validadores diretos
+@RequestBody (para JSON) e @Valid
+Criação de annotation, que sinceramente eu não peguei direito
+Validadores @CPF e CNPJ e validador unico deles
+Validadores por anotation de conteúdo sem ser repetido
+sobre o "Assert.isTrue" pra não deixar passar apesar das 348724863242398 anotações
+Sobre LocalDateTime, configuração do Json dele. o @Future que é massa, amei. hhaha
+SObre BigDecimal, não sabia que ele existia e sobre as anotações @DecimalMin e @DecimalMax
+Uso dos Optional >.< 
+Uso de List (vago, porém entendi)
+Uso do Set para lista de carrinho
+Compreensão do EntityManager (ainda um pouco vago)
+Uso do Equals para comparação
+Leitura basica sobre Equals e Hashcode
+Uso de cookies e configuração breve.
+Uso de Swagger e configuração breve (não funcionou perfeitamente no meu avião por isso usei o lindo do postman, incluive para testar os cookies)
+Uso do MySQL, das tables, como dropar as tables, atualizar, etc.
+Como gerar cupom de porcentagem, matemática por trás do cupom.
+COmo funciona os getter e setter, onde eu seto cada coisa e onde busco cada coisa,
+LEMBRETE: Na próxima se o país e estado já cadastrados tiverem ID, busque um ID na validação, ou seja preguiçosa e faça o método dentro do new mesmo, 
+ps só gzus, pra fazer validador que pede ID, mas não tem ID apenas nome. foda, mas foi.
+é muito tranquilo fazer o total com desconto, mas apanha um pouco.
+
+PS: System.out.println é seu melhor amigo de todas as horas
+
+-------------------------------------------------------------------------------------------------------
+Erro porta já sendo utilizada?
+abre cmd -> netstat -a -n -o
+ver nº do pif que está a frente da porta 8080 depois da coluna "estado"
+taskkill -f -im "numeroDoPid"
+porta fechada! EHHEHE obrigada StackOverFlow
+----------------------------------------------------------------------------------------------------------
+Entender o que é regras de negócio - o que é persistir - o que é um objeto de domínio - request e response e exposição da enteidade - bordas de integração
